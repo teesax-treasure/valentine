@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Memories ❤️</title>
+<link rel="stylesheet" href="memories.css">
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<h1 class="title">Our Beautiful Memories ❤️</h1>
+
+<!-- Music Control -->
+<button id="musicBtn">🎵 Play Music</button>
+
+<audio id="bgMusic" loop>
+    <source src="constellation.mp3" type="audio/mp3">
+</audio>
+
+<!-- Photo Wall -->
+<div class="photo-wall">
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="2.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">One of my favourite memories with you ❤️</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="1.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">You always make everything better ✨</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="3.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">I smile every time I see this moment 😊</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="4.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">Havilah being a Fish as always 😊</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="5.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">Havilah being a Fish as always 😊</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="6.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">Havilah being a Fish as always 😊</p>
+    </div>
+
+    <div class="photo-card">
+        <div class="rope"></div>
+        <div class="pin"></div>
+        <video class="memory-video" muted autoplay loop playsinline>
+        <source src="7.mp4" type="video/mp4">
+        </video>
+
+        <p class="caption">Havilah being a Fish as always 😊</p>
+    </div>
+
+    <div class="photo-card letter-card" id="openLetter">
+    <div class="rope"></div>
+    <div class="pin"></div>
+
+    <div class="letter-preview">
+        💌 Tap to Read My Letter
+    </div>
+
+    <p class="caption">There’s something I really want to tell you ❤️</p>
+    </div>
+
+</div>
+
+<!-- Fullscreen Modal -->
+<div id="modal" class="modal">
+    <img id="modalImg">
+</div>
+
+<div id="letterModal" class="modal">
+    <div class="letter-content">
+
+        <h2>To Someone Very Special ❤️</h2>
+
+        <p>
+           Maé, <br>
+
+Happy Valentine’s Day ❤️
+
+I’ve been thinking about how to put my feelings into words, and honestly, it’s not easy because you mean so much to me. From the moment you came into my life, things started feeling brighter, calmer, and more beautiful in ways I never expected.
+
+Being around you makes ordinary moments feel special. The way you smile, the way you talk, and even the little things you do stay in my mind longer than you probably realize. You make me happy in a way that feels natural and peaceful, and that’s something I’m really grateful for.
+
+Tu es vraiment spéciale pour moi. (You are truly special to me.)
+
+I love how you make me feel comfortable being myself. With you, I don’t feel like I have to pretend or change who I am. I just feel understood, and that means everything.
+
+Sometimes I catch myself smiling randomly just because I remembered something about you. Maybe it’s a memory we shared, something funny you said, or just how amazing you are as a person. Moments like that remind me how lucky I am to know you.
+
+Mon cœur, you bring so much joy into my life.
+Ma belle, you make every day feel lighter and warmer.
+Mon ange, you inspire me to be better.
+
+I appreciate your kindness, your strength, your intelligence, and the way you care about people around you. You have a beautiful heart, and that’s one of the many reasons you are so important to me.
+
+Je suis très heureux de t’avoir dans ma vie. (I am very happy to have you in my life.)
+
+As we celebrate this Valentine’s Day, I just want you to know that I value every moment, every memory, and every smile we share. I look forward to creating many more memories together, laughing together, and supporting each other through everything life brings.
+
+Merci d’être toi. Merci pour ta gentillesse et ton sourire. (Thank you for being you. Thank you for your kindness and your smile.)
+
+No matter what happens, I want you to always remember that you are appreciated, respected, and cared for deeply.
+
+With love and sincerity, <br>
+[The Saxophonist]
+        </p>
+
+    </div>
+    <div id="videoModal" class="modal">
+    <video id="modalVideo" controls autoplay></video>
+    </div>
+
+</div>
+
+
+<script src="memories.js"></script>
+
+</body>
+</html>
